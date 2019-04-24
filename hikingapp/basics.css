@@ -1,0 +1,32 @@
+h1{
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px #ADD8E6;
+}
+
+.index{
+    border: 1px solid black;
+}
+
+tr, td{
+    padding: 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.update{
+    color: #008080;
+}
+
+.submit, button{
+    background-color: #ADD8E6;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+p{
+    font-size: 0.8em;
+}

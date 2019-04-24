@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Add hikes</title>
+    <link rel="stylesheet" href="basics.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+
+    <form action="insert.php" method="POST" name="form1">
+        <table>
+            <tr>
+                <td>hike</td>
+                <td><input type="text" name="hike"></td>
+            </tr>
+            <tr>
+                <td>difficulty</td>
+                <td><input type="text" name="difficulty"></td>
+                <td><p> (very easy, easy, normal, hard, very hard)</p></td>
+            </tr>
+            <tr>
+                <td>distance</td>
+                <td><input type="text" name="distance"></td>
+            </tr>
+            <tr>
+                <td>duration</td>
+                <td><input type="text" name="duration"></td>
+            </tr>
+            <tr>
+                <td>height_difference</td>
+                <td><input type="text" name="height_difference"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button><a href="index.php">Home</a></button>
+                </td>
+                <td>
+                    <input class="submit" type="submit" name='submit' value="Add"></input>
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
